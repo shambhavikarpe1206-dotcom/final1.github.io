@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00f7ff;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero span {
+    color: #00f7ff;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background: #00f7ff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+}
